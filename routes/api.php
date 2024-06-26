@@ -18,4 +18,4 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('v1/documents', [DocumentController::class, 'getDocuments']);
 Route::get('v1/document/{id}', [DocumentController::class, 'getDocument']);
-Route::post('documents/create', [DocumentController::class, 'createDocument']);
+Route::post('v1/documents/create', [DocumentController::class, 'createDocument']);
